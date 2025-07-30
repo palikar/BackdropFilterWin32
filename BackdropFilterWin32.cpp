@@ -938,10 +938,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	g_Application.isRunning = true;
 
-	g_Application.swapChain->Present(1, 0);
-	g_Application.swapChain->Present(1, 0);
-	g_Application.swapChain->Present(1, 0);
-
 	ShowWindow(g_Application.hwnd, SW_SHOW);
 	UpdateWindow(g_Application.hwnd);
 
